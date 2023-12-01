@@ -80,7 +80,7 @@ const SignUpForm = () => {
             <option value="other">Other</option>
           </select> */}
           <Select
-            label="Select an option"
+            label="Select Gender"
             options={options}
             onChange={(event) => console.log(event.target.value)}
                name="select-input"
