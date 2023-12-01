@@ -1,0 +1,35 @@
+.sign-up-form {
+    width: auto;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .sign-up-form-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .sign-up-form input,
+  .sign-up-form select {
+    /* width: 100%; */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .sign-up-form button {
+    /* width: 100%; */
+    padding: 10px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .sign-up-form button:hover {
+    background-color: #000;
+    color: #fff;
+  }
+  
