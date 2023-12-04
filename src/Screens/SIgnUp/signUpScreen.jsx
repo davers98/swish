@@ -15,8 +15,8 @@ const SignUpForm = () => {
     false
   );
   const options = [
-  { value: 'Female', label: 'Female'},
-  { value: 'Male', label: 'Male'}
+    { value: 'Female', label: 'Female' },
+    { value: 'Male', label: 'Male' }
   ]
 
   const handleSubmit = (event) => {
@@ -39,7 +39,7 @@ const SignUpForm = () => {
       <div className="bottom-section">
 
         <div className="sign-up-form container container-sm text-center">
-          <FaWifi className="wifiIcon"/>
+          <FaWifi className="wifiIcon" />
           <h1 className="sign-up-form-title">Swish</h1>
 
           <Input
@@ -64,40 +64,44 @@ const SignUpForm = () => {
           />
 
           <div className="d-flex">
-          <Input
-            type="number"
-            placeholder="Age"
-            value={age}
-            onChange={(event) => setAge(event.target.value)}
-          />
+            <Input
+              type="number"
+              placeholder="Age"
+              value={age}
+              onChange={(event) => setAge(event.target.value)}
+            />
 
-          
-          <Select
-            label="Select Gender"
-            options={options}
-            onChange={(event) => console.log(event.target.value)}
-               name="select-input"
-          />
+            <Select
+              label="Select Gender"
+              options={options}
+              onChange={(event) => console.log(event.target.value)}
+              name="select-input"
+            />
           </div>
 
-        
-         <div className="d-flex">
-         <Input
+          <div className="d-flex" style={{
+            alignItems: 'self'
+          }}>
+          <Input
             type="checkbox"
-            label="Accept terms and conditions"
+            // label="Accept terms and conditions"
             checked={termsAndConditionsAccepted}
+            style={{
+              width: '15px',
+              height: '15px'
+            }}
             onChange={(event) => setTermsAndConditionsAccepted(event.target.checked)}
           />
-
-         </div>
-         
+          <label>Accept terms and conditions</label>
+          </div>
+          
 
           <Button
             text="Connect"
-            btnClass= "btn-dark"
+            btnClass="btn-dark"
             onClick={handleSubmit}
           />
-           
+
         </div>
       </div>
     </div>
