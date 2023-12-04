@@ -63,7 +63,9 @@ const SignUpForm = () => {
             onChange={(event) => setPhoneNumber(event.target.value)}
           />
 
-          <div className="d-flex">
+          <div className="d-flex" style={{
+            alignSelf: 'center'
+          }}>
             <Input
               type="number"
               placeholder="Age"
@@ -80,7 +82,7 @@ const SignUpForm = () => {
           </div>
 
           <div className="d-flex" style={{
-            alignItems: 'self'
+            alignSelf: 'center'
           }}>
           <Input
             type="checkbox"

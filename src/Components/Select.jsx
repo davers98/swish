@@ -20,7 +20,7 @@ const Select = ({
         value={value}
         onChange={onChange}
         style={{
-          borderRadius: '4px',
+          borderRadius: '20px',
           padding: '10px',
           fontSize: '16px',
           border: '1px solid #ddd',
