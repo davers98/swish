@@ -3,6 +3,7 @@ import "./Css/SignUpForm.css";
 import Input from "../../Components/Input";
 import Button from "../../Components/Button";
 import Select from "../../Components/Select";
+import { FaWifi } from "react-icons/fa6";
 
 const SignUpForm = () => {
   const [fullName, setFullName] = useState("");
@@ -37,7 +38,8 @@ const SignUpForm = () => {
 
       <div className="bottom-section">
 
-        <div className="sign-up-form container container-sm m-auto text-center">
+        <div className="sign-up-form container container-sm text-center">
+          <FaWifi className="wifiIcon"/>
           <h1 className="sign-up-form-title">Swish</h1>
 
           <Input

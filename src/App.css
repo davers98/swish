@@ -49,7 +49,7 @@ body {
 .container.container-lg {
   display: flex;
   flex-direction: column;
-  height: 200vh;
+  height: 150vh;
   max-width: 100%;
   flex-wrap: wrap;
 
