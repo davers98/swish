@@ -44,21 +44,21 @@ const SignUpForm = () => {
 
           <Input
             type="text"
-            placeholder="Full name"
+            placeholder="Full Name"
             value={fullName}
             onChange={(event) => setFullName(event.target.value)}
           />
 
           <Input
             type="email"
-            placeholder="Email address"
+            placeholder="Email Address"
             value={emailAddress}
             onChange={(event) => setEmailAddress(event.target.value)}
           />
 
           <Input
             type="tel"
-            placeholder="Phone number"
+            placeholder="Phone Number"
             value={phoneNumber}
             onChange={(event) => setPhoneNumber(event.target.value)}
           />
