@@ -24,7 +24,7 @@ body {
 }
 
 .bottom-section {
-  flex: 1;
+  flex: 0 0 80%;
   background-color: #ff9800;
 }
 
@@ -49,7 +49,7 @@ body {
 .container.container-lg {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 200vh;
   max-width: 100%;
   flex-wrap: wrap;
 

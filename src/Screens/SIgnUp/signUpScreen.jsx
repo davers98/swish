@@ -32,7 +32,7 @@ const SignUpForm = () => {
 
       <div className="top-section">
 
-        <h1 className="text-center mt-1">Ad <br /> Goes Here</h1>
+        <h1 className="text-center mt-3">Ad <br /> Goes Here</h1>
       </div>
 
       <div className="bottom-section">

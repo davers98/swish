@@ -21,7 +21,8 @@ const Input = ({
         value={value}
         onChange={onChange}
         style={{
-          borderRadius: '4px',
+          textAlign: 'center',
+          borderRadius: '20px',
           padding: '10px',
           fontSize: '16px',
           border: '1px solid #ddd',
