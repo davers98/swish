@@ -40,7 +40,7 @@ const SignUpForm = () => {
 
         <div className="sign-up-form container container-sm text-center">
           <FaWifi className="wifiIcon" />
-          <h1 className="sign-up-form-title">Swish</h1>
+          <h1 className="sign-up-form-title">SWISH</h1>
 
           <Input
             type="text"
